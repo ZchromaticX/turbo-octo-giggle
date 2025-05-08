@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Metadata of page-->
+<head>
+<meta charset="UTF=8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="design.css">
+</head>
+<body>
+  <!--Creation of form-->
+  <form action="/submit" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your full name" required><br>
+  
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Your email address" required><br>
+  
+    <label for="occupation">Occupation:</label>
+    <select id="occupation" name="occupation" required>
+      <option value="">-- Select an option --</option>
+      <option value="Student">Student</option>
+      <option value="Entrepreneur">Entrepreneur</option>
+      <option value="Doctor">Doctor</option>
+      <option value="Spokesman">Spokesman</option>
+      <option value="Engineer">Engineer</option>
+      <option value="Unemployed">Unemployed</option>
+      <option value="Others">Others</option>
+    </select><br>
+    <label for="Others">If others, specify:</label>
+    <textarea id="specify" name="specify" placeholder="Tell us more about your job" rows="1" cols="30"></textarea><br>
+    <label for="comments">Comments(optional):</label>
+    <textarea id="comments" name="comments" placeholder="Write your comments down here" rows="4" cols="30"></textarea><br>
+  
+    <input type="submit" value="Submit">
+    <img src="https://imgur.com/xfZu5SJ.jpg" alt="Mother nature carassing Earth">
+    <!--Credits: Leonardo.ai image generation-->
+  </form>
+
+</body>
+</html>
